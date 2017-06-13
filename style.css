@@ -1,0 +1,90 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #B1D1AA;
+}
+.container
+{
+	display: block;
+	border: 0px solid;
+	margin: auto;
+	width: 1100px;
+}
+.section
+{
+	margin-top: 10px;
+	display: block;
+	border: 3px solid lightgray;
+	min-height: 500px;
+	background-color: white;
+}
+#big
+{
+	height: 650px;
+}
+#big2{	height: 850px;}
+#big3{	height: 750px;}
+#big4{	height: 850px;}
+
+.bg
+{
+	display: block;
+	float: left;
+	width: 600px;
+	height: 350px;
+	margin: 5px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#real1 {background-image: url("real1.jpg");  width: 350px; height: 350px; margin-left: -200px; margin-top: -90px;}
+#real2 {background-image: url("real2.jpg");  width: 300px; height: 300px; margin-left: 10px; margin-top: -20px;}
+#real3 {background-image: url("real3.jpg");  width: 350px; height: 350px;}
+#real4 {background-image: url("real4.jpg");  width: 350px; height: 350px; margin-left: 110px; margin-top: -140px;}
+
+#postup {background-image: url("postup.jpg");  width: 350px; height: 350px; margin-left: -20px;}
+#atmosphere {background-image: url("atmosphere2.jpg");  width: 400px; height: 400px;}
+#poseshenie1 {background-image: url("poseshenie1.jpg");  }
+#kulisi1 {background-image: url("kulisi1.jpg");  width: 500px; height: 500px; margin-top: 130px;}
+#kulisi2 {background-image: url("kulisi2.jpg");  width: 500px; height: 500px; margin-left: -50px;margin-top: -20px;}
+
+#work {background-image: url("work2.jpg"); margin-top: -10px; }
+#people {background-image: url("people2.jpg");  }
+#festival {background-image: url("festival.JPG");  }
+#festival2 {background-image: url("festival2.JPG");  width: 300px; height: 500px;margin-left: 280px; margin-top: -40px;}
+
+#small1 {margin-top: -230px; margin-left: 660px;}
+#small2 {margin-top: -330px; margin-left: 5px;}
+
+.section_head
+{
+	display: block;
+	clear: both;
+	height: 100px;
+	padding: 5px;
+	text-align: center;
+	font-size: 60pt;
+	color: dimgrey;
+}
+.section_text
+{
+	display: block;
+	float: left;
+	height: 300px;
+	width: 400px;
+	text-align: center;
+	font-size: 20pt;
+	padding: 5px;
+
+}
+.clip_item
+{
+	display: block;
+	float: left;
+	height: 300px;
+	width: 400px;
+}

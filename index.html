@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Поступление-реальность</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+	<div class="section" id="big">
+		<p class="section_head">Ожидания-реальность.</p>
+		<div class="bg" id="real3"></div>
+
+		<div class="bg" id="real2"></div>
+		<p class="section_text">Когда ты поступал,  то ничего не ожидал. В реальности же: ну что-то происходит вокруг тебя и ты сидишь, открыв рот. </p>
+		<div class="bg" id="real1"></div>
+		<div class="bg" id="real4"></div>
+	</div>
+
+	<div class="section">
+		<p class="section_head">Поступление</p>
+		<p class="section_text">Поступить несложно, если есть деньги. Если на бюджет, то уже сложно. Учиться тоже сложно. Мы тут умираем. Чтобы скидку на обучение получить, надо постараться, а слететь с нее – очень легко </p>
+		</p>
+		<div class="bg" id="postup"></div>
+		<div class="clip_item" id="small1"><video class="videoKlip" onmouseout="hideVideo()" src="1.mp4" controls></video></div>
+	</div>
+
+	<div class="section">
+		<p class="section_head">Атмосфера</p>
+		<div class="bg" id="atmosphere"></div>
+		<p class="section_text">Очень домашняя атмосфера. Как на дополнительных занятиях, когда в детстве тебя приводили на кружок рисования и ты такой сидишь, рисуешь с друзьями. Препод - тоже друг, с ним можно чайку попить, поболтать. Посреди пары можно уйти на кофебрейк и не прийти на пару совсем. Тут главное не присутствие, а результат. Нет ощущения, что ты учишься в ВУЗе. </p>
+
+	</div>
+	<div class="section">
+		<p class="section_head">Посещаемость</p>
+
+		<p class="section_text">Посещать нужно. Хотя это трудно, потому что я еду из Дубков, полтора часа доехать и столько же, чтобы уехать. Ради одной пары не охота иногда выходить из комнаты.</p>
+		<div class="bg" id="poseshenie1"></div>
+	</div>
+
+	<div class="section" id="big2">
+		<p class="section_head">Режим дня</p>
+		<div class="bg" id="kulisi1"></div>
+		<div class="bg" id="kulisi2"></div>
+		<p class="section_text">Перед просмотрами мы тут сутками живем. А в начале года можешь гулять без перерыва. Но основная жизнь все равно здесь: все друзья, знакомые, события. Можно и тут жить.</p>
+		<div class="clip_item" id="small2" onmouseover="myplay();"><video class="videoKlip" onmouseout="hideVideo()" src="2.mp4" controls></video></div>
+	</div>
+
+	<div class="section">
+		<p class="section_head">Трудоустройство</p>
+
+		<p class="section_text">Мы ничего не знаем. Иногда препод может тебя попросить ему помочь с мультфильмом, например, но это очень редко бывает.</p>
+		<div class="bg" id="work"></div>
+	</div>
+
+	<div class="section">
+		<p class="section_head">Контингент</p>
+		<div class="bg" id="people"></div>
+		<p class="section_text">Люди тут с абсолютно разным бэкграундом: кто-то совсем не ходил в творческую школу, кто-то ходил в плохую, как я, кто-то занимался с крутыми преподавателями, чтобы поступить. Но тут умение рисовать не особо важно, скорее креатив, творчество.</p>
+	</div>
+
+	<div class="section" id="big4">
+		<p class="section_head">Жизнь факультета</p>
+
+		<p class="section_text">У нас проходят открытые лекции, посвященные дизайну. Выставки тоже есть.  К нам недавно приезжал мужчина, который нарисовал Бэтмена, Скуби-Ду,  он читал нам лекцию про персонажи, естественно на английском языке, так что его хорошо нужно знать.  Хотя вступительного по английскому нет, но без него туго здесь.</p>
+		<div class="bg" id="festival"></div>
+		<div class="bg" id="festival2"></div>
+
+	</div>
+
+	<script>
+        function myplay() {
+
+            var vid = document.getElementById("videoKlip");
+            vid.onmouseover = function(){
+                vid.play();
+            }
+            vid.onmouseup = function(){
+                vid.stop();
+            }
+
+        }
+	</script>
+
+
+	<script>
+        $("body").on("mouseover", "video", function(){
+            this.play();
+            $( this ).css( "background-color", "black" );
+        });
+        $("body").on("mouseleave", "video", function(){
+            this.pause();
+        })
+	</script>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
